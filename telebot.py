@@ -1,4 +1,5 @@
 import telebot
+Import .env
 import yfinance as yf
 
 # stored the api key in var file and imported that here.
