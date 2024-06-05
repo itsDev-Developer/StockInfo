@@ -1,9 +1,6 @@
 import telebot
 import yfinance as yf
-from dotenv import load_dotenv
-import os
 
-load_dotenv()
 # stored the api key in var file and imported that here.
 API_KEY = API_KEY
 bot = telebot.TeleBot(API_KEY)
