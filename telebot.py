@@ -3,7 +3,7 @@ import yfinance as yf
 
 # stored the api key in var file and imported that here.
 API_KEY = API_KEY
-bot = telebot.TeleBot(6705370743:AAGv8CgHxRfhXvlj9aUfwiiKfac7gxxYBv4)
+bot = telebot.TeleBot(API_KEY)
 
 # runs by sending '/greet' in the bot chat
 @bot.message_handler(commands=['greet'])
